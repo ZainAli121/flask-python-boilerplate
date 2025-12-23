@@ -95,7 +95,13 @@ def read_root():
                     <a href="/api/data">Get Data →</a>
                 </div>
             </div>
+            <p>Deployed</p>
         </main>
     </body>
     </html>
     """
+
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
